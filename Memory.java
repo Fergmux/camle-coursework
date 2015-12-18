@@ -9,7 +9,6 @@ import java.nio.ByteBuffer ;
 public class Memory {
 
   static ArrayList<Byte> memory = new ArrayList<Byte>();
-  static ArrayList<Byte> memory1 = new ArrayList<Byte>();
   static HashMap<String, Integer> variable = new HashMap<String, Integer>();
 
   static public int allocateVariable(String text){
